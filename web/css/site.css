@@ -113,3 +113,88 @@ a.desc:after {
 .nav > li > form > button.logout:focus {
     outline: none;
 }
+.wrap > .container{
+    padding: 60px 0 0;
+}
+.container-all{
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 120px);
+    align-items: center;
+}
+.container-top{
+    height: 0%;
+    overflow: hidden;
+    display: flex;
+}
+.container-middle{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container-bottom{
+    height: 80%;
+    overflow: hidden;
+    display: flex;
+}
+
+.table-wrapper {
+    height: calc(100% - 80px);
+    max-width: 1170px;
+    overflow: auto;
+}
+
+.container-all .pagination {
+    margin: 10px 0;
+}
+.container-all table.table tr td {
+    max-width: 500px;
+}
+.container-top.uploaded {
+    height: 40%;
+}
+.container-middle.uploaded {
+    background: #fafafa;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 0 10px 70px;
+    flex-direction: row;
+}
+.container-bottom.uploaded {
+    height: 50%;
+}
+.container-middle button{
+    height: 60px;
+    padding: 20px 40px;
+    margin-top: 10px;
+    display: flex;
+}
+.container-middle .modal-body button, .container-middle.uploaded button{
+    height: 50px;
+    padding: 15px 40px;
+}
+.container-middle.uploaded button{
+    margin: 0 0 0 60px;
+}
+.container-all h4 {
+    margin: 0;
+    display: flex;
+}
+.container-middle.uploaded form select {
+    padding: 7px;
+    margin: 10px 0 10px 15px;;
+}
+.modal-header .close{
+    height: auto;
+    padding: 0;
+}
+.modal-body .comment {
+    position: relative;
+    top: -10px;
+    color: #bbb;
+    font-size: 14px;
+}
